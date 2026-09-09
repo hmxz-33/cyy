@@ -33,8 +33,8 @@ const CFG = {
             'photo1.jpg', 'photo2.jpg', 'photo3.png',
             'photo4.jpg', 'photo5.jpg', 'photo6.jpg',
             'photo7.png', 'photo8.jpg', 'photo9.jpg',
-            'photo10.png','photo11.png','photo12.png',
-            'photo13.png','photo14.png'
+            'photo10.png','photo11.jpg','photo12.jpg',
+            'photo13.jpg','photo14.jpg','photo15.jpg',
         ],
         // 照片说明文字：在引号里写内容，放大查看照片时会显示在照片右侧（白色字体）；留空则不显示
         photoTexts: [
@@ -46,6 +46,7 @@ const CFG = {
             '希望以后还有机会一起拍照片',
             '有机会一起去海边，去更多地方',
             '美好天气','','',
+            '人生苦短，有些希望/n/n有些梦想/n/n还有互道晚安',
         ],
         photoSize: 120,
         rotateRange: 0.5,
