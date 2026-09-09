@@ -28,7 +28,7 @@ const CFG = {
         ],
     },
     photoWall: {
-        photoCount: 9,
+        photoCount: 15,
         photoFiles: [
             'photo1.jpg', 'photo2.jpg', 'photo3.png',
             'photo4.jpg', 'photo5.jpg', 'photo6.jpg',
@@ -54,7 +54,7 @@ const CFG = {
         convergeDuration: 2.0,
     },
     cake: {
-        size: 0.6,         // 蛋糕宽度 = 屏幕高度 × 0.33（默认≈下半部分一半的观感）。调大→蛋糕更大，调小→更小
+        size: 0.6,         // 蛋糕宽度 = 屏幕高度 × 0.6。调大→蛋糕更大，调小→更小
         candleHeight: 80,   // 兜底：无蜡烛图片时程序化蜡烛的高度
         burnDuration: 5.0,  // 蜡烛燃烧时长（秒）
         appearDuration: 1.5,
@@ -91,7 +91,7 @@ const CFG = {
         envelopeWidth: 160,
         envelopeHeight: 330,
         preview: "亲爱的陈园园：\n\n生日快乐！\n勇敢的小姐快过上好生活吧。",
-        text: "亲爱的陈园园：\n\n生日快乐！\n虽然你已经提前过了生日，但还是希望在当天给你祝福。祝愿你找到梦寐以求的生活，希望你不要总是被逼着往前走，希望你能在世界上肆意、幸福地生活，继续勇敢下去，带着每一部分的你自己。你很好，希望你的以后对你好一点，我向菩萨祈祷。\n\n不等人解释发生了什么，我们就仓皇地走到了20岁的路口。记得我从前问你有没有觉得我改变了很多，你说“没有”。大概是因为我们总在相逢，也因为我从来不喜欢在你面前沉默，我总在说话。从准高一相识，中间有少联系过，却又在各奔东西时重新相处。距离好像给我们的关系加了中间层，让我们在里面喘息、等待。是缘分让我们不断相识，不断了解彼此，我感谢这份缘分，也会一直记得这段关系。\n\n准高一认识你时，觉得这是一个分外勇敢与有趣的同学，你总在与邪恶的陆建军斗智斗勇，与狡猾的数学物理久久周旋。与你聊天，就是在枯燥的高中生活短暂地看了会儿动画片，感受纯粹的勇气与乐观，看你气愤到跺脚，叉着腰吐槽那些本就不公正的事。\n\n其实你也会在离开家的时候偷偷哭泣，也会因为老师的责备而流泪，也有难以宣之于口的情绪。只不过你习惯了轻松地表达难过，用气愤来概括所有的情绪。\n\n最想说的是感谢吧，你填补了我读书生活大部分的无聊，让我感受到絮絮叨叨的温暖。之前的我也不太会有愤怒这份情绪，在跟你相处之后，我发现其实那些自以为是的委屈是我没有表达出来的愤怒。看起来不成体统的你带给我太多热烈的生活。就像你特意希望与我一起提前过生日，即使我拍照那么丑，还是会好好配合我一次次摆动作。无数次庆幸你没有只停留在我的高中，庆幸你还是那么大方勇敢地走来。\n\n以后太远了，但是我们已经留下一段不短的时光。也由衷地祝福你以后一路平坦、顺心，少点疲惫、少点束缚。生日快乐，开心的一天就大笑，难过时就大哭。你一直都很棒，生活一定会越来越好的，你一定要过上好生活！因为你生在阳光的夏天。\n\n爱你的蛤蟆小子",
+        text: "亲爱的陈园园：\n\n生日快乐！\n虽然你已经提前过了生日，但还是希望在当天给你祝福。祝愿你找到梦寐以求的生活，希望你不要总是被逼着往前走，希望你能在世界上肆意、幸福地生活，继续勇敢下去，带着每一部分的你自己。你很好，希望你的以后对你好一点，我向菩萨祈祷。\n\n不等人解释发生了什么，我们就仓皇地走到了20岁的路口。记得我从前问你有没有觉得我改变了很多，你说“没有”。大概是因为我们总在相逢，也因为我从来不喜欢在你面前沉默，我总在说话。从准高一相识，中间有少联系过，却又在各奔东西时重新相处。距离好像给我们的关系加了中间层，让我们在里面喘息、等待。是缘分让我们不断相识，不断了解彼此，我感谢这份缘分，也会一直记得这段关系。\n\n准高一认识你时，觉得这是一个分外勇敢与有趣的同学，你总在与邪恶的陆建军斗智斗勇，与狡猾的数学物理久久周旋。与你聊天，就是在枯燥的高中生活短暂地看了会儿动画片，感受纯粹的勇气与乐观，看你气愤到跺脚，叉着腰吐槽那些本就不公正的事。\n\n其实你也会在离开家的时候偷偷哭泣，也会因为老师的责备而流泪，你也有难以宣之于口的情绪。只不过你习惯了轻松地表达难过，用气愤来概括所有的情绪。\n\n最想说的是感谢吧，你填补了我读书生活大部分的无聊，让我感受到絮絮叨叨的温暖。之前的我也不太会有愤怒这份情绪，在跟你相处之后，我发现其实那些自以为是的委屈是我没有表达出来的愤怒。看起来不成体统的你带给我太多热烈的生活。就像你特意希望与我一起提前过生日，即使我拍照那么丑还是会好好配合我一次次摆动作。无数次庆幸你没有只停留在我的高中，庆幸你还是那么大方勇敢地走来。\n\n以后太远了，但是我们已经留下一段不短的时光。也由衷地祝福你以后一路平坦、顺心，少点疲惫、少点束缚。生日快乐，开心的一天就大笑，难过时就大哭。你一直都很棒，生活一定会越来越好的，你一定要过上好生活！因为你生在阳光的夏天。\n\n爱你的蛤蟆小子",
     },
     music: {
         // .kgg 为酷狗私有格式，浏览器无法播放；按顺序尝试，命中任一可播放格式即用
@@ -147,7 +147,7 @@ let envelope = null;
 let letterOpen = false;
 let paperBall = null;
 let showResetButton = false;
-let resetButton = { x: 0, y: 0, w: 330, h: 78 };
+let resetButton = { x: 0, y: 0, w: 520, h: 340 };
 // ---- 蛋糕状态变量 ----
 let cakeState = 'idle';
 let matchPos = { x: 0, y: 0 };
@@ -599,21 +599,6 @@ class PaperBall {
 }
 // ================================================================
 //  ██  preload, setup  ██
-// 照片按需加载：文件存在才请求，避免照片未就位时 404 报错刷屏
-async function loadPhotoIfExists(f) {
-    const base = 'data/' + f;
-    for (const ext of ['png', 'jpg']) {
-        const url = base + '.' + ext;
-        try {
-            const resp = await fetch(url, { method: 'HEAD' });
-            if (resp && resp.ok) return loadImage(url);
-        } catch (e) {
-            // 服务器不支持 HEAD 时直接尝试加载
-            return loadImage(url);
-        }
-    }
-    return null;
-}
 // ================================================================
 function preload() {
     bgImg = loadImage('data/background.png');
@@ -621,14 +606,13 @@ function preload() {
     for (let i=0; i<3; i++) starImgs[i] = loadImage('data/star'+(i+1)+'.png');
     watchHand = loadImage('data/watch.png');
     for (let i=1; i<=4; i++) flowerImgs.push(loadImage('data/flower'+i+'.png'));
+    // 照片：直接按配置中的完整文件名加载（已含扩展名，png/jpg 均可）
     for (const f of CFG.photoWall.photoFiles) {
         photoImgs.push(loadImage('data/' + f));
     }
-    // 蛋糕场景素材（cake/candle/fire/note/match，存在才加载，加载完成自动生效）
+    // 蛋糕场景素材（cake/candle/fire/note/match，均为 png）
     for (const nm of ['cake', 'candle', 'fire', 'note', 'match']) {
-        loadPhotoIfExists(nm).then(function (img) {
-            if (img) sceneImgs[nm] = img;
-        });
+        sceneImgs[nm] = loadImage('data/' + nm + '.png');
     }
     myFont = loadFont('data/ShouShuTi-2.ttf');
 }
@@ -853,7 +837,7 @@ function drawClock() {
         drawingContext.fillStyle = grad;
         drawingContext.textAlign = 'center';
         drawingContext.textBaseline = 'middle';
-        drawingContext.font = `bold ${fs}px "${myFont.font}", serif`;
+        drawingContext.font = `bold ${fs}px "${(myFont && myFont.font) ? myFont.font : 'serif'}", serif`;
         drawingContext.fillText(YEARS[i], x, y);
     }
     let angleOffset = 1.6;
@@ -872,22 +856,18 @@ function drawClock() {
     pop();
 }
 function drawBackground(progress) {
-    let alpha2 = progress;
-    let alpha1 = 1 - progress;
-    let pg = createGraphics(width, height);
-    pg.background(0, 0, 0, 0);
-    if (bgImg2) {
-        pg.tint(255, 255, 255, alpha2 * 255);
-        pg.image(bgImg2, 0, 0, width, height);
-        pg.noTint();
-    }
+    // 直接在主画布上交叉淡入淡出，避免每帧 createGraphics 导致内存暴涨
     if (bgImg) {
-        pg.tint(255, 255, 255, alpha1 * 255);
-        pg.image(bgImg, 0, 0, width, height);
-        pg.noTint();
+        noTint();
+        image(bgImg, 0, 0, width, height);
+    } else {
+        background(30, 25, 20);
     }
-    image(pg, 0, 0);
-    pg.remove();
+    if (bgImg2 && progress > 0) {
+        tint(255, 255, 255, progress * 255);
+        image(bgImg2, 0, 0, width, height);
+        noTint();
+    }
 }
 function generatePhotoItems() {
     photoItems = [];
@@ -921,12 +901,10 @@ function generatePhotoItems() {
                 origX: x, origY: y,
                 origRot: rot,
             });
-            // 照片异步加载完成后写回对应位置（_idx 固定索引，避免闭包捕获可变的 placed）
+            // 照片在 preload 中已直接加载为 p5.Image，这里直接引用
             const _idx = placed;
             const _slot = photoImgs[_idx];
-            if (_slot && _slot.then) {
-                _slot.then(img => { if (photoItems[_idx]) photoItems[_idx].photo = img; });
-            }
+            if (_slot) photoItems[_idx].photo = _slot;
             placed++;
         }
     }
@@ -1809,24 +1787,17 @@ function draw() {
         text(msg, width/2, 40);
         if (transitionActive) {
             drawPhotoWall(photoAlpha, 0);
-            push();
-            let pg2 = createGraphics(width, height);
-            pg2.background(0,0,0,0);
+            // 花瓣直接画在主画布上，不用每帧 createGraphics
             updatePhotoPetals();
+            noStroke();
             for (let p of photoPetals) {
-                pg2.noStroke();
-                pg2.push();
-                pg2.translate(p.x, p.y);
-                pg2.rotate(p.angle);
-                pg2.fill(p.hue, p.sat, p.bright, p.alpha * photoAlpha/255);
-                pg2.ellipse(0, 0, p.size, p.size * 0.6);
-                pg2.pop();
+                push();
+                translate(p.x, p.y);
+                rotate(p.angle);
+                fill(p.hue, p.sat, p.bright, p.alpha * photoAlpha/255);
+                ellipse(0, 0, p.size, p.size * 0.6);
+                pop();
             }
-            tint(255,255,255, photoAlpha);
-            image(pg2, 0, 0);
-            noTint();
-            pg2.remove();
-            pop();
         }
         if (clockAlpha > 1) drawClock();
         drawUI();
@@ -2150,12 +2121,12 @@ function drawResetSign() {
     let a = resetBtnFadeIn;
     let btn = resetButton;
     btn.x = width / 2;
-    btn.y = height / 2 + 100;
+    btn.y = height / 2;
     // 底部暗色衬托，让告示牌从点彩背景中浮出来
     fill(0, 0, 0, 150 * a / 255);
     noStroke();
     rectMode(CENTER);
-    rect(width / 2, height / 2 + 40, 380, 140, 24);
+    rect(width / 2, height / 2, 580, 400, 24);
     let rot = sin(frameCount * 0.02) * 0.025;   // 轻微摆动，更生动
     push();
     translate(btn.x, btn.y);
@@ -2169,7 +2140,7 @@ function drawResetSign() {
     rect(-3, 46, 5, 130, 2);
     pop();
     // 告示牌板：不规则圆角 + 双层描边，营造手绘感
-    let bw = btn.w + 44, bh = btn.h + 24;
+    let bw = 520, bh = 340;
     push();
     translate(0, -bh / 2);
     rotate(rot);
@@ -2189,11 +2160,17 @@ function drawResetSign() {
     fill(255, 210, 150, a);
     ellipse(-bw / 2 + 16, -bh / 2 + 16, 3.5, 3.5);
     ellipse(bw / 2 - 16, -bh / 2 + 16, 3.5, 3.5);
-    // 文字
+    // 文字（多行自动换行，居中）
     fill(96, 42, 34, a);
     textAlign(CENTER, CENTER);
-    textSize(23);
-    text('好好长大，按时吃饭\n这是一份粗糙不过的礼物，只是因为希望换个表达的形式，所以选择了这种\n一份不成熟的东西，但是真话\n生日快乐！', 0, 2);
+    textSize(17);
+    textLeading(26);
+    let signText = '好好长大，按时吃饭\n\n这是一份粗糙不过的礼物，只是因为希望换个表达的形式，所以选择了这种\n\n东西做的不好，但话都是真心的，用垃圾包住真话，我觉得表达更加自然\n\n一份不成熟的作品，一颗真心哦\n\n生日快乐！';
+    let signLines = wrapLetterToLines(signText, bw - 60);
+    let signBlockH = signLines.length * 26;
+    for (let i = 0; i < signLines.length; i++) {
+        text(signLines[i], 0, -signBlockH / 2 + 13 + i * 26);
+    }
     // 小星星点缀
     drawSparkle(-bw / 2 + 30, bh / 2 - 18, 7, a);
     drawSparkle(bw / 2 - 26, -bh / 2 + 28, 5, a);
